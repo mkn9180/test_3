@@ -43,3 +43,6 @@ jobs:
           echo test, and deploy your project.
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
+      - name: Writegood Check
+        uses: mnahinkhan/writegood-action@v1.0.0
+            
